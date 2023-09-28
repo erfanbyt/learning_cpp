@@ -1,0 +1,5 @@
+Notes:
+
+using 'value++' will add the value after it and you can see the results after this line, but using '++value' will do the operation first and 
+return the value then for the next line of code. 
+

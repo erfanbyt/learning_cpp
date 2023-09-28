@@ -1,0 +1,12 @@
+1. Remember to initialize the value variable using braced initialization. Otherwise C++ is going to assign some garbage variable to it and it will be hard to track it. 
+	int age {} --> initialize it to zero
+
+2. Functional variable initialization: used for initializing variables. It is almost the same as the braced initialization except for the following example
+	int age(10.5) --> it will initialize it with 10 --> information loss may happen
+
+3. Take care of the negative and positive numbers in C++. 
+
+4. There is difference between val++ and ++val
+	in the postfix operation it will do the addition after the statement is done
+	in the prefix operation it will do the addition before the statement is done
+
